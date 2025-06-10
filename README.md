@@ -27,8 +27,7 @@ NewsApp-Android-Studio adalah aplikasi berita Android yang kaya fitur, dikembang
 - [FAQ](#faq)
 - [Pengakuan](#pengakuan)
 - [Lisensi](#lisensi)
-- [Tim Pengembang](#tim-pengembang)
-- [Kontak](#kontak)
+
 
 ## Tangkapan Layar
 ![Screenshot 1](screenshots/HomePage.png)
