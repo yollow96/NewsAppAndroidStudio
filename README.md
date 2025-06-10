@@ -538,7 +538,7 @@ android {
 1. **Fork Repository**
    ```bash
    # Klik tombol "Fork" di GitHub
-   git clone https://github.com/YourUsername/NewsApp-Android-Studio.git
+   git clone https://github.com/yollow96/NewsAppAndroidStudio.git
    ```
 
 2. **Buat Feature Branch**
