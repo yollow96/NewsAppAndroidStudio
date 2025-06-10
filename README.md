@@ -3,6 +3,21 @@
 ## Gambaran Umum
 NewsApp-Android-Studio adalah aplikasi berita Android yang kaya fitur, dikembangkan menggunakan Java di Android Studio. Aplikasi ini memanfaatkan News API dari [newsapi.org](https://newsapi.org/) untuk mengambil dan menampilkan artikel berita terbaru. Antarmuka pengguna menggunakan RecyclerViews untuk presentasi item berita yang halus dan responsif. Salah satu fitur unggulan adalah kemampuan pengguna untuk menyimpan artikel, dengan penyimpanan data dikelola secara lokal menggunakan database SQLite untuk penyimpanan persisten dan SharedPreferences untuk manajemen data pengaturan pengguna dan autentikasi.
 
+## Problem Statement
+
+Fragmentasi Sumber Berita: Pengguna harus membuka banyak aplikasi untuk mendapatkan berita lengkap
+Kehilangan Artikel Penting: Tidak ada cara mudah untuk menyimpan dan mengorganisir artikel yang ingin dibaca kembali
+Ketergantungan Internet: Tidak bisa mengakses berita saat offline atau koneksi lambat
+Interface Tidak User-Friendly: Aplikasi berita existing sering rumit dan tidak intuitif
+
+## Solution
+NewsApp menghadirkan solusi komprehensif dengan:
+
+Unified News Hub: Satu platform untuk mengakses berita dari berbagai kategori dan sumber
+Intelligent Bookmarking: Sistem favorit dengan SQLite untuk menyimpan artikel secara permanen
+Offline Reading Mode: Akses artikel tersimpan tanpa koneksi internet
+Clean & Intuitive UI: Design Material dengan RecyclerView untuk pengalaman membaca yang nyaman
+
 ## Daftar Isi
 - [Gambaran Umum](#gambaran-umum)
 - [Tangkapan Layar](#tangkapan-layar)
