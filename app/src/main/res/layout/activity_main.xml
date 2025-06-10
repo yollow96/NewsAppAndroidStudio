@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Theme toggle container -->
+    <LinearLayout
+        android:id="@+id/themeSwitcherLayout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:orientation="horizontal"
+        android:padding="12dp"
+        android:background="?attr/colorPrimary"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/tvThemeLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dark Mode"
+            android:textColor="@android:color/white"
+            android:textSize="16sp"
+            android:layout_marginEnd="8dp" />
+
+        <Switch
+            android:id="@+id/switchTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <!-- Offline message banner dengan higher elevation -->
+    <LinearLayout
+        android:id="@+id/offlineContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:orientation="vertical"
+        android:elevation="8dp">
+
+        <TextView
+            android:id="@+id/tvOfflineMessage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFD32F2F"
+            android:text="⚠️ Anda sedang offline. Harap periksa koneksi internet Anda dan coba lagi."
+            android:textColor="@android:color/white"
+            android:textSize="14sp"
+            android:padding="12dp"
+            android:gravity="center"
+            android:visibility="gone"
+            android:drawablePadding="8dp" />
+    </LinearLayout>
+
+    <!-- Main fragment container -->
+    <FrameLayout
+        android:id="@+id/fragmentContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="48dp" />
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:background="@drawable/bottom_appbar_bg"
+        app:menu="@menu/floating_app_bar"
+        app:itemIconTint="@color/black"
+        app:itemTextColor="@color/black" />
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

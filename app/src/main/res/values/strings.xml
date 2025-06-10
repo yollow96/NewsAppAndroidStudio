@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">HaberNews</string>
+    <string name="main_title">Tetap\nterinformasi sejak hari pertama</string>
+    <string name="main_subtitle">Temukan berita terbaru\ndengan aplikasi berita kami yang sempurna</string>
+    <string name="main_button">Mari Mulai</string>
+
+    <string name="client_id">310341090202-ggf2185ggi5eb40sfqvbj6pqdl2rhq3d.apps.googleusercontent.com</string>
+    <string name="search">Cari Artikel</string>
+    <string name="son_haberler">Berita Terbaru</string>
+    <string name="tum_haberler">Semua Berita</string>
+
+    <string name="api_key">278f45056a454eb7977466845b59c31c</string>
+    <string name="published_by">Diterbitkan oleh:</string>
+    <string name="about">\tsekitar\t</string>
+    <string name="results">\thasil</string>
+    <string name="saved_articles">Artikel Tersimpan</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="home">Home</string>
+    <string name="haber">Haber</string>
+    <string name="newsHeader">News</string>
+    <string name="makale_ara">Cari Artikel</string>
+    <string name="profile">Profile</string>
+    <string name="login">MASUK</string>
+    <string name="OR">--- Atau ---</string>
+    <string name="register">Daftar</string>
+    <string name="email">Email</string>
+    <string name="password">Kata Sandi</string>
+    <string name="noAccount">Tidak punya akun?</string>
+    <string name="logout">Keluar</string>
+    <string name="personal_information">Informasi Pribadi Anda</string>
+    <string name="Edit"><![CDATA[TAMBAH >]]></string>
+    <string name="my_articles">Artikel Saya</string>
+    <string name="username">nama pengguna</string>
+    <string name="lastname">nama belakang pengguna</string>
+    <string name="have_an_account">Sudah punya akun?</string>
+    <string name="you_have_no_articles">Anda Tidak Memiliki Artikel</string>
+    <string name="add_article">Tambahkan Artikel</string>
+    <string name="article_title">Judul Artikel</string>
+    <string name="article_desc">Deskripsi Artikel</string>
+    <string name="article_content">Konten Artikel</string>
+    <string name="article_urls">url artikel</string>
+    <string name="cancel">Batalkan</string>
+    <string name="edit_article">edit artikel</string>
+    <string name="delete_article">hapus artikel</string>
+    <string name="update_article">Perbarui Artikel</string>
+    <string name="edit_article_title">Edit Artikel</string>
+    <string name="profile_header">Profile</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="user_email_format">Email: %1$s</string>
+    <string name="user_email_placeholder">Email: loading...</string>
+</resources>
