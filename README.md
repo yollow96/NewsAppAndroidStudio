@@ -37,7 +37,6 @@ NewsApp menghadirkan solusi komprehensif dengan:
 - [Changelog](#changelog)
 - [Dependensi](#dependensi)
 - [Teknologi yang Digunakan](#teknologi-yang-digunakan)
-- [Performa](#performa)
 - [Keamanan](#keamanan)
 - [FAQ](#faq)
 - [Pengakuan](#pengakuan)
@@ -220,8 +219,9 @@ dependencies {
 
 #### Halaman Utama
 - Menampilkan daftar berita terbaru
-- Pull-to-refresh untuk memperbarui konten
 - Scroll infinite untuk loading lebih banyak artikel
+- Mnemapilkan beragam pilihan Category yang diinginkan
+
 
 #### Menyimpan Artikel
 1. Buka artikel yang ingin disimpan
@@ -229,23 +229,18 @@ dependencies {
 3. Artikel akan tersimpan di database SQLite lokal
 
 #### Mengakses Artikel Favorit
-1. Buka menu navigasi (☰)
-2. Pilih "Artikel Favorit"
-3. Lihat semua artikel yang telah disimpan
+1. Pilih "Artikel Favorit"
+2. Lihat semua artikel yang telah disimpan
 
 #### Pencarian Berita
 1. Ketuk ikon search (🔍) di toolbar
 2. Masukkan kata kunci pencarian
 3. Tekan "Enter" atau ketuk tombol search
 
-#### Pengaturan Aplikasi
-1. Buka menu navigasi (☰)
-2. Pilih "Pengaturan"
-3. Atur preferensi seperti:
-   - Mode gelap/terang
-   - Notifikasi
-   - Cache storage
-   - Tentang aplikasi
+#### Theme Mode
+1. Tekan Paling atas kiri ada "Dark Mode"
+2. Maka Mode Theme akan berubah
+   
 
 ## Arsitektur Aplikasi
 
@@ -703,28 +698,6 @@ debugImplementation 'com.github.chuckerteam.chucker:library:3.5.2'
 - **Espresso:** UI testing framework
 - **Mockito:** Mocking framework
 
-## Performa
-
-### Optimasi Performa
-1. **Image Loading**
-   - Lazy loading untuk gambar
-   - Image compression otomatis
-   - Memory cache dan disk cache
-
-2. **Database Queries**
-   - Indexed columns untuk search
-   - Efficient SQL queries
-   - Background thread operations
-
-3. **Network Requests**
-   - Request caching
-   - Gzip compression
-   - Connection pooling
-
-4. **Memory Management**
-   - Proper object lifecycle
-   - Memory leak prevention
-   - Garbage collection optimization
 
 ### Benchmarks
 - **App Startup Time:** < 2 detik
