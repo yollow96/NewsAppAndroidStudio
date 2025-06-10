@@ -846,7 +846,7 @@ A: Tidak, aplikasi dioptimasi untuk efisiensi battery.
 ```
 MIT License
 
-Copyright (c) 2023 [Muhammad Rifky Kurniawan]
+Copyright (c) 2025 [Muhammad Rifky Kurniawan]
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
