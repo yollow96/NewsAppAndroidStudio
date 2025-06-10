@@ -24,7 +24,6 @@ NewsApp-Android-Studio adalah aplikasi berita Android yang kaya fitur, dikembang
 - [Teknologi yang Digunakan](#teknologi-yang-digunakan)
 - [Performa](#performa)
 - [Keamanan](#keamanan)
-- [Roadmap](#roadmap)
 - [FAQ](#faq)
 - [Pengakuan](#pengakuan)
 - [Lisensi](#lisensi)
@@ -748,31 +747,6 @@ debugImplementation 'com.github.chuckerteam.chucker:library:3.5.2'
 - **User Consent:** Clear privacy policy
 - **Data Retention:** Automatic cleanup old data
 - **Third-party Services:** Transparent usage
-
-## Roadmap
-
-### Q1 2025
-- [ ] Widget support untuk home screen
-- [ ] Offline mode improvement
-- [ ] Multi-language support (English, Indonesian)
-- [ ] Social sharing features
-
-### Q2 2025
-- [ ] Advanced search filters
-- [ ] Reading history tracking
-- [ ] Sync across devices
-
-### Q3 2025
-- [ ] AI-powered news recommendation
-- [ ] Voice search functionality
-- [ ] Accessibility improvements
-- [ ] Tablet optimization
-
-### Q4 2025
-- [ ] AR news experience
-- [ ] Machine learning personalization
-- [ ] Advanced analytics dashboard
-- [ ] Plugin architecture
 
 ### Long-term Goals
 - Cross-platform development (Flutter/React Native)
